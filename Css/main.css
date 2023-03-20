@@ -11,8 +11,11 @@
 .borderB{border: 1px solid black;}
 .borderW{border: 1px solid white;}
 .borderR{border: 1px solid red;}
+.borderG{border: 1px solid green;}
+.borderBlue{border: 1px solid blue;}
 
-.radius{border-radius: 5px;}
+
+.radius{border-radius: 20px;}
 
 /***************** WIDTH *******************/
 
@@ -26,6 +29,8 @@
 .col30{width: 30%;}
 .col40{width: 40%;}
 .col50{width: 50%;}
+
+.marginAuto{margin: 0 auto;}
 
 /****************** FLEX *******************/
 
@@ -41,15 +46,33 @@
 
 /****************** BACKGROUND *************/
 
+.bgLightBlue {background-color: #b5ddff;}
+
+/****************** HEADER *******************/
 
 header{
     min-height: 95px;
     background-color: #0084fd;
+    margin-bottom: 4em;
 }
 
 .navBar{
-    min-width: 400px;
+    min-width: 83%;
     height: 3em;
-    margin: 0 auto;
 }
 
+/****************** MAIN *******************/
+
+.container{
+    width: 83%;
+
+}
+
+.bigCard{
+    min-height: 775px;
+}
+
+.card{
+    height: 460px;
+    margin-top: 1.5em;
+}
