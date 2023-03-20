@@ -8,45 +8,49 @@
 
 /*********** BORDER PROPERTIES ************/
 
-.borderB{border: 1px solid black;}
-.borderW{border: 1px solid white;}
-.borderR{border: 1px solid red;}
-.borderG{border: 1px solid green;}
-.borderBlue{border: 1px solid blue;}
+.borderB    {border: 1px solid black;}
+.borderW    {border: 1px solid white;}
+.borderR    {border: 1px solid red;}
+.borderG    {border: 1px solid green;}
+.borderBlue {border: 1px solid blue;}
 
 
-.radius{border-radius: 20px;}
+.radius {border-radius: 20px;}
 
 /***************** WIDTH *******************/
 
-.w100{max-width: 100%;}
+.w100   {max-width: 100%;}
 
-.col5{width: 5%;}
-.col10{width: 10%;}
-.col15{width: 15%;}
-.col20{width: 20%;}
-.col25{width: 25%;}
-.col30{width: 30%;}
-.col40{width: 40%;}
-.col50{width: 50%;}
+.col5   {width: 5%;}
+.col10  {width: 10%;}
+.col15  {width: 15%;}
+.col20  {width: 20%;}
+.col25  {width: 25%;}
+.col30  {width: 30%;}
+.col40  {width: 40%;}
+.col50  {width: 50%;}
 
 .marginAuto{margin: 0 auto;}
 
 /****************** FLEX *******************/
 
-.flex{display: flex;}
-.flexColumn{display: flex; flex-direction: column;}
-.spaceBtw{justify-content: space-between;}
-.spaceAround{justify-content: space-around;}
-.justifyEnd{justify-content: flex-end;}
-.justifyCenter{justify-content: center;}
-.alignCenter{align-items: center;}
-.alignStart{align-items: flex-start;}
-.alignEnd{align-items: flex-end;}
+.flex          {display: flex;}
+.flexColumn    {display: flex; flex-direction: column;}
+.spaceBtw      {justify-content: space-between;}
+.spaceAround   {justify-content: space-around;}
+.justifyEnd    {justify-content: flex-end;}
+.justifyCenter {justify-content: center;}
+.alignCenter   {align-items: center;}
+.alignStart    {align-items: flex-start;}
+.alignEnd      {align-items: flex-end;}
 
 /****************** BACKGROUND *************/
 
 .bgLightBlue {background-color: #b5ddff;}
+.bgLilla     {background-color: #9792e4;}
+.bgWhite     {background-color: white;}
+
+
 
 /****************** HEADER *******************/
 
@@ -63,9 +67,11 @@ header{
 
 /****************** MAIN *******************/
 
+
+/*************** DEMO SECTION **************/
+
 .container{
     width: 83%;
-
 }
 
 .bigCard{
@@ -75,4 +81,20 @@ header{
 .card{
     height: 460px;
     margin-top: 1.5em;
+}
+
+/*************** PLANNING SECTION **************/
+
+.planning{
+    margin-top: 100px;
+}
+
+.bigPlanningCard{
+    min-height: 890px;
+    margin-bottom: 50px;
+}
+
+.planningCard{
+    min-height: 790px;
+    margin-bottom: 80px;
 }
