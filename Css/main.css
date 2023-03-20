@@ -1,4 +1,6 @@
-/*********** HELPER ************/
+/************* HELPER **************/
+/***********************************/
+/***********************************/
 
 *{
     box-sizing: border-box;
@@ -57,8 +59,14 @@ img{
 .bgLilla     {background-color: #9792e4;}
 .bgWhite     {background-color: white;}
 
+/****************** POSITION *******************/
+
+.relative   {position: relative;}
+.absolute   {position: absolute;}
 
 /*********** HELPER END ************/
+/***********************************/
+/***********************************/
 
 /****************** HEADER *******************/
 
@@ -148,6 +156,10 @@ header{
     background-image: url(../img/testimonial3.jpg);
 }
 
+#fourthTestimonial{
+    background-image: url(../img/about.jpg);
+}
+
 
 /*************** BENEFITS SECTION **************/
 
@@ -226,5 +238,39 @@ header{
 .aboutUs .testimonialCard > div.foto{
     margin-left: 0;
 }
+
+span.absolute{
+    font-size: 216px;
+    bottom: 314px;
+    left: 189px;
+    font-family: 'Palanquin', sans-serif;
+    color:#9792e4;
+}
+
+.companyHelper{
+    color:#9792e4;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
+.aboutBtn{
+    padding: 1em 1em;
+    text-align: center;
+    width: 60%;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.aboutBtn > a{
+    color: white;
+    font-size: 18px;
+} 
+
+.fa-linkedin{
+    margin-right: 0.5em;
+} 
 
 
