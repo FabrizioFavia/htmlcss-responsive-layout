@@ -4,6 +4,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
 }
 
 /*********** BORDER PROPERTIES ************/
@@ -16,6 +22,7 @@
 
 
 .radius {border-radius: 20px;}
+.circle {border-radius: 50%;}
 
 /***************** WIDTH *******************/
 
@@ -51,6 +58,7 @@
 .bgWhite     {background-color: white;}
 
 
+/*********** HELPER END ************/
 
 /****************** HEADER *******************/
 
@@ -107,6 +115,7 @@ header{
 
 .testimonials > .container{
     margin-top: 80px;
+    padding-bottom: 150px;
 }
 
 .presentation{
@@ -117,6 +126,105 @@ header{
 .testimonialCard{
     min-height: 640px;
     margin-top: 40px;
+}
+
+.foto{
+    width: 260px;
+    height: 260px;
+    margin: 40px auto;
+    background-size: cover;
+    background-position: center;
+}
+
+#firstTestimonial{
+    background-image: url(../img/testimonial1.jpg);
+}
+
+#secondTestimonial{
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#thirdTestimonial{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+
+/*************** BENEFITS SECTION **************/
+
+.benefits > .container{
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.benefitCard{
+
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.number{
+    font-size: 50px;
+    color: #9792e4;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+.benefitTitle{
+    font-size: 43px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.benefits .cardTitle{
+    color: #9792e4;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.benefitDscrpt{
+    color: #999999;
+    line-height: 32px;
+    font-size: 18px;
+    padding-bottom: 1.5em;
+}
+
+.benefitButton{
+    padding: 1em 2em;
+    text-align: center;
+    width: 53%;
+    border-radius: 25px;
+}
+
+.benefitButton a{
+    color: white;
+    font-size: 18px;
+}
+
+/*************** ABOUT US SECTION **************/
+
+
+.aboutDscrpt{
+    padding-top: 110px;
+}
+
+.aboutDscrpt h2{
+    color:#9792e4;
+    font-size: 50px;
+    padding-bottom: 70px;
+}
+
+.aboutDscrpt p{
+    color:#999999;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.aboutUs .testimonialCard > div.foto{
+    margin-left: 0;
 }
 
 
