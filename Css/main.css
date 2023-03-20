@@ -86,11 +86,15 @@ header{
 /*************** PLANNING SECTION **************/
 
 .planning{
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.planning > .container{
+    margin-top: 80px;
 }
 
 .bigPlanningCard{
-    min-height: 890px;
+    min-height: 820px;
     margin-bottom: 50px;
 }
 
@@ -98,3 +102,21 @@ header{
     min-height: 790px;
     margin-bottom: 80px;
 }
+
+/*************** TESTIMONIALS SECTION **************/
+
+.testimonials > .container{
+    margin-top: 80px;
+}
+
+.presentation{
+    min-height: 460px;
+    margin-bottom: 40px;
+}
+
+.testimonialCard{
+    min-height: 640px;
+    margin-top: 40px;
+}
+
+
