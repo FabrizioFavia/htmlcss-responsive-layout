@@ -1,5 +1,55 @@
+/*********** HELPER ************/
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
+/*********** BORDER PROPERTIES ************/
+
+.borderB{border: 1px solid black;}
+.borderW{border: 1px solid white;}
+.borderR{border: 1px solid red;}
+
+.radius{border-radius: 5px;}
+
+/***************** WIDTH *******************/
+
+.w100{max-width: 100%;}
+
+.col5{width: 5%;}
+.col10{width: 10%;}
+.col15{width: 15%;}
+.col20{width: 20%;}
+.col25{width: 25%;}
+.col30{width: 30%;}
+.col40{width: 40%;}
+.col50{width: 50%;}
+
+/****************** FLEX *******************/
+
+.flex{display: flex;}
+.flexColumn{display: flex; flex-direction: column;}
+.spaceBtw{justify-content: space-between;}
+.spaceAround{justify-content: space-around;}
+.justifyEnd{justify-content: flex-end;}
+.justifyCenter{justify-content: center;}
+.alignCenter{align-items: center;}
+.alignStart{align-items: flex-start;}
+.alignEnd{align-items: flex-end;}
+
+/****************** BACKGROUND *************/
+
+
+header{
+    min-height: 95px;
+    background-color: #0084fd;
+}
+
+.navBar{
+    min-width: 400px;
+    height: 3em;
+    margin: 0 auto;
+}
+
