@@ -304,7 +304,7 @@ header .navBar{
 
 .aboutDscrpt p{
     color:#222;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 40px;
 }
 
@@ -314,15 +314,15 @@ header .navBar{
 
 span.absolute{
     font-size: 216px;
-    bottom: 397px;
-    left: 189px;
+    bottom: 362px;
+    left: 173px;
     font-family: 'Palanquin', sans-serif;
-    color:#9792e4;
+    color: #9792e4;
 }
 
 #companyHelper{
     color:#9792e4;
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 50px;
     line-height: 50px;
@@ -339,7 +339,7 @@ span.absolute{
 
 .aboutBtn > a{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 } 
 
 .fa-linkedin{
@@ -470,7 +470,6 @@ footer.bgBlack{
         padding: 50px 20px 0 20px;
         text-align: left;
     }
-
     /* BENEFIT SECTION */
 
     .benefitCard{
@@ -481,8 +480,37 @@ footer.bgBlack{
 
     .cardContainer{
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap; 
+    }
+    /* ABOUT US SECTION */
+
+    .aboutUs .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aboutDscrpt{
+        width: 55%;
+        padding-bottom: 150px;
+    }
+
+    .testimonialCard{
+        width: 35%;
+    }
+
+    .aboutBtn{
+        padding: 0.5em 1em;
+        width: 87%;
+    }
+
+    span.absolute{
+        bottom: 670px;
+        left: 154px;
+    }
+
+    #companyHelper{
+        font-size: 25px;
+        margin-bottom: 25px;
     }
 }   
 
