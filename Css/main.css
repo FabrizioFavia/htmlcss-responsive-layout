@@ -11,11 +11,6 @@
 img {width: 100%;}
 
 /*********** BORDER PROPERTIES ************/
-.borderB    {border: 1px solid black;}
-.borderW    {border: 1px solid white;}
-.borderR    {border: 1px solid red;}
-.borderG    {border: 1px solid green;}
-.borderBlue {border: 1px solid blue;}
 
 .radius {border-radius: 30px;}
 .circle {border-radius: 50%;}
@@ -121,7 +116,7 @@ color: black;
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 30px;
-    color:#999999
+    color:#484747;
 }
 
 .card{
@@ -605,10 +600,13 @@ footer.bgBlack{
     font-size: 14px;
     padding-bottom: 0;
     }
+
+    /* ABOUT US SECTION */
+    span.absolute{
+        bottom: 595px;
+        left: 154px;
+    }
     }
 
-
-
-}
 
 
