@@ -544,7 +544,7 @@ footer.bgBlack{
     .container{
         max-width: 950px;
     }
-
+    /* HEADER */
     .navBar{
         max-width: 950px;
     }
@@ -556,7 +556,7 @@ footer.bgBlack{
     .menu .hiddenMenu{
         display: flex;
     }
-
+    /* DEMO SECTION */
     .bigCard{
         display: flex;
     }
@@ -573,6 +573,42 @@ footer.bgBlack{
     .halfBottom > img{
         max-width: 100%;
     }
+
+    /* PLANNING SECTION */
+
+    .planning > .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bigPlanningCard{
+        width: 40%;
+    }
+
+    .planningCard{
+        width: 40%;
+        margin-top: 193px;
+        margin-bottom: 100px;
+        }
+    
+    .planningCard img{
+        width: 60%;
+        padding-top: 1em;
+    }
+
+    .benefitCard{
+        width: calc(100% / 3 - 1.5em);
+    }
+
+    .benefitCard .benefitDscrpt{
+    line-height: 28px;
+    font-size: 14px;
+    padding-bottom: 0;
+    }
+    }
+
+
+
 }
 
 
