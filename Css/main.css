@@ -1,7 +1,4 @@
 /************* HELPER **************/
-/***********************************/
-/***********************************/
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,9 +7,7 @@
     text-decoration: none;
 }
 
-img{
-    width: 100%;
-}
+img {width: 100%;}
 
 /*********** BORDER PROPERTIES ************/
 
@@ -22,21 +17,13 @@ img{
 .borderG    {border: 1px solid green;}
 .borderBlue {border: 1px solid blue;}
 
-
-.radius {border-radius: 20px;}
+.radius {border-radius: 30px;}
 .circle {border-radius: 50%;}
 
 /***************** WIDTH *******************/
 
-.w100   {max-width: 100%;}
 
-.col5   {width: 5%;}
-.col10  {width: 10%;}
-.col15  {width: 15%;}
-.col20  {width: 20%;}
-.col25  {width: 25%;}
-.col30  {width: 30%;}
-.col40  {width: 40%;}
+
 .col50  {width: 50%;}
 
 .marginAuto{margin: 0 auto;}
@@ -45,6 +32,7 @@ img{
 
 .flex          {display: flex;}
 .flexColumn    {display: flex; flex-direction: column;}
+.flexWrap      {flex-wrap: wrap;}
 .spaceBtw      {justify-content: space-between;}
 .spaceAround   {justify-content: space-around;}
 .justifyEnd    {justify-content: flex-end;}
@@ -52,6 +40,8 @@ img{
 .alignCenter   {align-items: center;}
 .alignStart    {align-items: flex-start;}
 .alignEnd      {align-items: flex-end;}
+
+.textAlignCenter{text-align: center;}
 
 /****************** BACKGROUND *************/
 
@@ -61,15 +51,12 @@ img{
 .white       {color: white;}
 .bgBlack     {background-color: #222;}       
 
-
 /****************** POSITION *******************/
 
 .relative   {position: relative;}
 .absolute   {position: absolute;}
 
 /*********** HELPER END ************/
-/***********************************/
-/***********************************/
 
 /****************** HEADER *******************/
 
@@ -84,26 +71,70 @@ header{
     height: 3em;
 }
 
+.menu .fa-bars{
+    font-size: 25px;
+    color: white;
+}
+
 /****************** MAIN *******************/
 /*************** DEMO SECTION **************/
 
 .container{
     width: 83%;
+    max-width: 600px;
 }
 
 .bigCard{
-    min-height: 775px;
+    padding: 40px 40px 0 40px;
+}
+
+.bigCard h2:first-child{
+    color: #0084fd;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.bigCard div.benefitButton{
+    background-color: #0084fd;
+    color: white;
+    padding: 1em 2em;
+    width: 280px;
+    margin-bottom: 41px;
+}
+
+.fa-solid{
+    font-size: 100px;
+    color: #0084fd;
+}
+
+.demo > .container .wrapper p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:#999999
 }
 
 .card{
+    width: 100%;
     height: 460px;
     margin-top: 1.5em;
+    padding: 40px;
+}
+
+.card h2{
+    color:#0084fd;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px auto;
 }
 
 /*************** PLANNING SECTION **************/
 
 .planning{
     margin-top: 80px;
+    padding-bottom: 1px;
 }
 
 .planning > .container{
@@ -111,30 +142,87 @@ header{
 }
 
 .bigPlanningCard{
-    min-height: 820px;
+   
     margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.bigPlanningCard > img{
+    margin-bottom: 100px;
+}
+
+.bigPlanningCard > h2{
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.planning p{
+    line-height: 32px;
 }
 
 .planningCard{
-    min-height: 790px;
     margin-bottom: 80px;
 }
+
+.planningCard img, h2, p, .fa-arrow-down-long{
+    margin-bottom: 35px;
+}
+
+.planningCard p{
+    font-style: italic;
+    padding: 0 20px;
+}
+
+.fa-arrow-down-long{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    color: black;
+}
+
+
+
+
 
 /*************** TESTIMONIALS SECTION **************/
 
 .testimonials > .container{
-    margin-top: 80px;
+    margin-top: 60px;
     padding-bottom: 150px;
 }
 
 .presentation{
-    min-height: 460px;
     margin-bottom: 40px;
 }
 
+.presentation span{
+    margin-bottom: 35px;
+}
+
+.presentation h2{
+    color:#9792e4;
+    font-size: 32px;
+}
+
+.presentation p{
+    line-height: 32px;
+}
+
 .testimonialCard{
-    min-height: 640px;
+    
     margin-top: 40px;
+    padding: 0 30px;
+}
+
+.testimonialCard p{
+    color: white;
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.testimonialCard .name{
+    letter-spacing: 2px;
 }
 
 .foto{
@@ -160,7 +248,6 @@ header{
 #fourthTestimonial{
     background-image: url(../img/about.jpg);
 }
-
 
 /*************** BENEFITS SECTION **************/
 
@@ -219,7 +306,6 @@ header{
 
 /*************** ABOUT US SECTION **************/
 
-
 .aboutDscrpt{
     padding-top: 110px;
 }
@@ -231,7 +317,7 @@ header{
 }
 
 .aboutDscrpt p{
-    color:#999999;
+    color:#222;
     font-size: 22px;
     line-height: 40px;
 }
@@ -274,9 +360,7 @@ span.absolute{
     margin-right: 0.5em;
 } 
 
-
 /*************** GET STARTED SECTION **************/
-
 
 .getStarted div.aboutBtn > a{
     color:#9792e4;
