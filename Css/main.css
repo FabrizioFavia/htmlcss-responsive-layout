@@ -57,17 +57,31 @@ header{
 
 header .navBar{
     width: 100%;
-
+    padding: 1em 0;
+    font-size: 14px;
 }
 
 .menu .fa-bars{
     font-size: 25px;
     color: white;
-    padding: 1em 0;
 }
 
 .menu .hiddenMenu{
+    color: white;
     display: none;
+}
+
+.navBtn{
+padding: 0.5em 1em;
+text-align: center;
+width: 100%;
+border-radius: 25px;
+background-color: white;
+color: black;
+}
+
+.hiddenMenu li{
+    margin-left: 20px;
 }
 
 /****************** MAIN *******************/
@@ -494,7 +508,7 @@ footer.bgBlack{
         padding-bottom: 150px;
     }
 
-    .testimonialCard{
+    .aboutUs .container .testimonialCard{
         width: 35%;
     }
 
@@ -512,7 +526,53 @@ footer.bgBlack{
         font-size: 25px;
         margin-bottom: 25px;
     }
+    /* GET STARTED SECTION */
+    .getStarted > .container > div.aboutBtn{
+        width: 40%;
+    }
+
+    /* FOOTER SECTION */
+    .footerParagraph{
+        margin: 0 125px;
+    }
 }   
 
+/********* MEDIA QUERY *********/
+/*********** DESKTOP ************/
+ 
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 950px;
+    }
+
+    .navBar{
+        max-width: 950px;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+    .menu .hiddenMenu{
+        display: flex;
+    }
+
+    .bigCard{
+        display: flex;
+    }
+
+    .halfTop{
+        width: 40%;
+        margin-right: 10%;
+    }
+
+    .halfBottom{
+        width: 50%;
+    }
+
+    .halfBottom > img{
+        max-width: 100%;
+    }
+}
 
 
