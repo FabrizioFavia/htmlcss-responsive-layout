@@ -58,6 +58,9 @@ img{
 .bgLightBlue {background-color: #b5ddff;}
 .bgLilla     {background-color: #9792e4;}
 .bgWhite     {background-color: white;}
+.white       {color: white;}
+.bgBlack     {background-color: #222;}       
+
 
 /****************** POSITION *******************/
 
@@ -82,8 +85,6 @@ header{
 }
 
 /****************** MAIN *******************/
-
-
 /*************** DEMO SECTION **************/
 
 .container{
@@ -272,5 +273,87 @@ span.absolute{
 .fa-linkedin{
     margin-right: 0.5em;
 } 
+
+
+/*************** GET STARTED SECTION **************/
+
+
+.getStarted div.aboutBtn > a{
+    color:#9792e4;
+}
+
+.getStarted > .container > span.white{
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 80px;
+}
+
+.getStarted > .container > h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#yellow{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 50px 0;
+    text-align: center;
+    color: #fdc15f;
+}
+
+.getParagraph{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.getStarted > .container > div.aboutBtn{
+    padding: 1.2em 1em;
+    text-align: center;
+    width: 74%;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.getStarted > .container > div.aboutBtn > a{
+    font-size: 20px;
+}
+
+.privacyPolicy{
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.privacyPolicy > a{
+    text-decoration:underline;
+    color: white;
+}
+
+footer.bgBlack{
+    padding-bottom: 50px;
+}
+
+.bgBlack > .container > .footerParagraph{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.bgBlack > .container > .footerParagraph a{
+    color:#9792e4;
+    text-decoration: underline;
+}
 
 
