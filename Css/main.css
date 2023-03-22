@@ -11,7 +11,6 @@
 img {width: 100%;}
 
 /*********** BORDER PROPERTIES ************/
-
 .radius {border-radius: 30px;}
 .circle {border-radius: 50%;}
 
@@ -20,15 +19,21 @@ img {width: 100%;}
 .w100{width: 100%;}
 .marginAuto{margin: 0 auto;}
 
+/***************** MARGIN *******************/
+.marginB40{margin-bottom: 40px;}
+.marginT80{margin-top: 80px;}
+.marginT50{margin-top: 50px;}
+
+
 /****************** FLEX *******************/
-.flex          {display: flex;}
-.flexColumn    {display: flex; flex-direction: column;}
-.flexWrap      {flex-wrap: wrap;}
-.spaceBtw      {justify-content: space-between;}
-.justifyCenter {justify-content: center;}
-.alignCenter   {align-items: center;}
-.alignStart    {align-items: flex-start;}
-.alignEnd      {align-items: flex-end;}
+.flex            {display: flex;}
+.flexColumn      {display: flex; flex-direction: column;}
+.flexWrap        {flex-wrap: wrap;}
+.spaceBtw        {justify-content: space-between;}
+.justifyCenter   {justify-content: center;}
+.alignCenter     {align-items: center;}
+.alignStart      {align-items: flex-start;}
+.alignEnd        {align-items: flex-end;}
 .textAlignCenter {text-align: center;}
 
 /****************** BACKGROUND *************/
@@ -44,62 +49,65 @@ img {width: 100%;}
 
 /*********** HELPER END ************/
 /****************** HEADER *******************/
-header{
-    padding: 0 9vw;
+header {
+    padding: 1em 9vw;
     background-color: #0084fd;
     margin-bottom: 4em;
 }
 
-header .navBar{
+header .navBar {
     width: 100%;
-    padding: 1em 0;
     font-size: 14px;
 }
 
-.menu .fa-bars{
+.menu .fa-bars {
     font-size: 25px;
     color: white;
 }
 
-.menu .hiddenMenu{
-    color: white;
+.menu .hiddenMenu {
     display: none;
 }
 
-.navBtn{
-padding: 0.5em 1em;
-text-align: center;
-width: 100%;
-border-radius: 25px;
-background-color: white;
-color: black;
+.navBtn {
+    padding: 0.5em 1em;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
-.hiddenMenu li{
+.hiddenMenu li {
     margin-left: 20px;
+    cursor: pointer;
+}
+
+.hiddenMenu a {
+    color: white;
 }
 
 /****************** MAIN *******************/
 /*************** DEMO SECTION **************/
-.container{
+.container {
     max-width: 400px;
 }
 
-.bigCard{
+.bigCard {
     padding: 40px 25px 0 25px;
 }
 
-.bigCard h2:first-child{
+.bigCard h2:first-child {
     color: #0084fd;
     font-size: 25px;
     margin-bottom: 30px;
 }
 
-.bigCard img{
+.bigCard img {
     display: block;
 }
 
-.bigCard div.benefitButton{
+.bigCard div.benefitButton {
     background-color: #0084fd;
     color: white;
     padding: 0.7em 1em;
@@ -107,75 +115,73 @@ color: black;
     margin-bottom: 25px;
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 75px;
     color: #0084fd;
 }
 
-.demo > .container .wrapper p{
+.demo>.container .wrapper p {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 30px;
-    color:#484747;
+    color: #484747;
 }
 
-.card{
+.card {
     width: 100%;
     margin-top: 1.5em;
     padding: 20px;
     text-align: center;
 }
 
-.card h2{
-    color:#0084fd;
+.card h2 {
+    color: #0084fd;
     text-align: center;
     font-size: 20px;
     margin: 35px auto;
 }
 
 /*************** PLANNING SECTION **************/
-.planning{
-    margin-top: 80px;
+.planning {
     padding-bottom: 1px;
 }
 
-.planning > .container{
-    margin-top: 80px;
-}
+.bigPlanningCard {
 
-.bigPlanningCard{
-   
     margin-bottom: 50px;
     padding-top: 50px;
 }
 
-.bigPlanningCard > img{
+.bigPlanningCard>img {
     margin-bottom: 100px;
 }
 
-.bigPlanningCard > h2{
+.bigPlanningCard>h2 {
     margin-bottom: 80px;
     font-size: 40px;
 }
 
-.planning p{
+.planning p {
     line-height: 32px;
 }
 
-.planningCard{
+.planningCard {
     margin-bottom: 80px;
 }
 
-.planningCard img, h2, p, .fa-arrow-down-long{
+.planningCard img,
+h2,
+p,
+.fa-arrow-down-long {
     margin-bottom: 35px;
 }
 
-.planningCard p{
+.planningCard p {
     font-style: italic;
     padding: 0 20px;
 }
 
-.fa-arrow-down-long{
+.fa-arrow-down-long {
     width: 50px;
     height: 50px;
     font-size: 16px;
@@ -184,46 +190,37 @@ color: black;
 }
 
 /*************** TESTIMONIALS SECTION **************/
-.testimonials > .container{
+.testimonials>.container {
     margin-top: 60px;
     padding-bottom: 150px;
 }
 
-.presentation{
-    margin-bottom: 40px;
-}
-
-.presentation span{
-    margin-bottom: 35px;
-}
-
-.presentation h2{
-    color:#9792e4;
+.presentation h2 {
+    color: #9792e4;
     font-size: 32px;
 }
 
-.presentation p{
+.presentation p {
     line-height: 32px;
 }
 
-.testimonialCard{
-    
+.testimonialCard {
     margin-top: 40px;
     padding: 10px 30px;
 }
 
-.testimonialCard p{
+.testimonialCard p {
     color: white;
     line-height: 32px;
     font-size: 20px;
     margin-bottom: 30px;
 }
 
-.testimonialCard .name{
+.testimonialCard .name {
     letter-spacing: 2px;
 }
 
-.foto{
+.foto {
     width: 200px;
     height: 200px;
     margin: 40px auto;
@@ -231,34 +228,21 @@ color: black;
     background-position: center;
 }
 
-#firstTestimonial{
-    background-image: url(../img/testimonial1.jpg);
-}
-
-#secondTestimonial{
-    background-image: url(../img/testimonial2.jpg);
-}
-
-#thirdTestimonial{
-    background-image: url(../img/testimonial3.jpg);
-}
-
-#fourthTestimonial{
-    background-image: url(../img/about.jpg);
-}
+#firstTestimonial {background-image: url(../img/testimonial1.jpg);}
+#secondTestimonial {background-image: url(../img/testimonial2.jpg);}
+#thirdTestimonial {background-image: url(../img/testimonial3.jpg);}
+#fourthTestimonial {background-image: url(../img/about.jpg);}
 
 /*************** BENEFITS SECTION **************/
-.benefits > .container{
-    margin-top: 80px;
+.benefits>.container {
     padding-bottom: 40px;
 }
 
-.benefitCard{
+.benefitCard {
     padding: 30px 40px;
-    margin-bottom: 40px;
 }
 
-.number{
+.number {
     font-size: 60px;
     color: #9792e4;
     margin-top: 20px;
@@ -266,62 +250,62 @@ color: black;
     font-weight: 600;
 }
 
-.benefitTitle{
-    font-size: 43px;
+.benefitTitle {
+    font-size: 38px;
     font-weight: 600;
     color: white;
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
-.benefits .cardTitle{
+.benefits .cardTitle {
     color: #9792e4;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 25px;
 }
 
-.benefitDscrpt{
+.benefitDscrpt {
     color: #999999;
     line-height: 32px;
     font-size: 16px;
     padding-bottom: 0.5em;
 }
 
-.benefitButton{
+.benefitButton {
     padding: 0.8em 2em;
     text-align: center;
     width: 67%;
     border-radius: 25px;
 }
 
-.benefitButton a{
+.benefitButton a {
     color: white;
     font-size: 18px;
 }
 
 /*************** ABOUT US SECTION **************/
-.aboutDscrpt{
+.aboutDscrpt {
     padding-top: 110px;
 }
 
-.aboutDscrpt h2{
-    color:#9792e4;
+.aboutDscrpt h2 {
+    color: #9792e4;
     font-size: 50px;
     padding-bottom: 70px;
 }
 
-.aboutDscrpt p{
-    color:#222;
+.aboutDscrpt p {
+    color: #222;
     font-size: 18px;
     line-height: 40px;
 }
 
-.aboutUs .testimonialCard > div.foto{
+.aboutUs .testimonialCard>div.foto {
     margin-left: 0;
 }
 
-span.absolute{
+span.absolute {
     font-size: 216px;
     bottom: 362px;
     left: 173px;
@@ -329,15 +313,15 @@ span.absolute{
     color: #9792e4;
 }
 
-#companyHelper{
-    color:#9792e4;
+#companyHelper {
+    color: #9792e4;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 50px;
     line-height: 50px;
 }
 
-.aboutBtn{
+.aboutBtn {
     padding: 1em 1em;
     text-align: center;
     width: 65%;
@@ -346,34 +330,34 @@ span.absolute{
     margin-bottom: 80px;
 }
 
-.aboutBtn > a{
+.aboutBtn>a {
     color: white;
     font-size: 16px;
-} 
+}
 
-.fa-linkedin{
+.fa-linkedin {
     margin-right: 0.5em;
-} 
+}
 
 /*************** GET STARTED SECTION **************/
-.getStarted div.aboutBtn > a{
-    color:#9792e4;
+.getStarted div.aboutBtn>a {
+    color: #9792e4;
 }
 
-.getStarted > .container > span.white{
-    font-size: 22px;
+.getStarted>.container>span.white {
+    font-size: 18px;
     font-weight: 100;
-    margin-top: 80px;
+
 }
 
-.getStarted > .container > h2{
+.getStarted>.container>h2 {
     font-size: 30px;
     font-weight: 600;
     margin-top: 40px;
     text-align: center;
 }
 
-#yellow{
+#yellow {
     font-size: 70px;
     font-weight: 600;
     margin: 50px 0;
@@ -381,7 +365,7 @@ span.absolute{
     color: #fdc15f;
 }
 
-.getParagraph{
+.getParagraph {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -389,7 +373,7 @@ span.absolute{
     margin-bottom: 50px;
 }
 
-.getStarted > .container > div.aboutBtn{
+.getStarted>.container>div.aboutBtn {
     padding: 1.2em 1em;
     text-align: center;
     width: 74%;
@@ -400,11 +384,11 @@ span.absolute{
     font-weight: 600;
 }
 
-.getStarted > .container > div.aboutBtn > a{
+.getStarted>.container>div.aboutBtn>a {
     font-size: 20px;
 }
 
-.privacyPolicy{
+.privacyPolicy {
     color: white;
     margin-bottom: 50px;
     text-align: center;
@@ -412,25 +396,24 @@ span.absolute{
     font-weight: 200;
 }
 
-.privacyPolicy > a{
-    text-decoration:underline;
+.privacyPolicy>a {
+    text-decoration: underline;
     color: white;
 }
 
-footer.bgBlack{
+footer.bgBlack {
     padding-bottom: 50px;
 }
 
-.bgBlack > .container > .footerParagraph{
+.bgBlack>.container>.footerParagraph {
     font-size: 16px;
     font-weight: 200;
     text-align: center;
     line-height: 30px;
-    margin-top: 50px;
 }
 
-.bgBlack > .container > .footerParagraph a{
-    color:#9792e4;
+.bgBlack>.container>.footerParagraph a {
+    color: #9792e4;
     text-decoration: underline;
 }
 
@@ -439,174 +422,183 @@ footer.bgBlack{
 
 
 @media screen and (min-width: 768px) {
+
     /* HEADER */
-    .container{
+    .container {
         max-width: 720px;
     }
+
     /* DEMO SECTION */
-    .bigCard{
+    .bigCard {
         max-width: calc((100% / 3) * 2 - 0.2em);
     }
-    .bigCard img{
+
+    .bigCard img {
         max-width: 63%;
     }
-    .card{
+
+    .card {
         max-width: calc((100% / 3) - 1em);
         margin-top: 0;
     }
-    .demo .container .wrapper{
+
+    .demo .container .wrapper {
         display: flex;
         justify-content: space-between;
     }
-    .demo .container .wrapper:first-child{
+
+    .demo .container .wrapper:first-child {
         display: flex;
         justify-content: space-between;
         margin-bottom: 1em;
     }
+
     /* TESTIMONIAL SECTION */
 
-    .testimonialFoto{
+    .testimonialFoto {
         min-width: 30%;
     }
 
-    .testimonialCard{
+    .testimonialCard {
         display: flex;
         padding: 10px;
     }
 
-    .testimonialInfo{
+    .testimonialInfo {
         align-self: center;
         padding: 50px 20px 0 20px;
         text-align: left;
     }
+
     /* BENEFIT SECTION */
 
-    .benefitCard{
+    .benefitCard {
         width: calc(50% - 1.5em);
         margin-right: 1.5em;
         margin-bottom: 1.5em;
     }
 
-    .cardContainer{
+    .cardContainer {
         display: flex;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
+
     /* ABOUT US SECTION */
 
-    .aboutUs .container{
+    .aboutUs .container {
         display: flex;
         justify-content: space-between;
     }
 
-    .aboutDscrpt{
+    .aboutDscrpt {
         width: 55%;
         padding-bottom: 150px;
     }
 
-    .aboutUs .container .testimonialCard{
+    .aboutUs .container .testimonialCard {
         width: 35%;
     }
 
-    .aboutBtn{
+    .aboutBtn {
         padding: 0.5em 1em;
         width: 87%;
     }
 
-    span.absolute{
+    span.absolute {
         bottom: 670px;
         left: 154px;
     }
 
-    #companyHelper{
+    #companyHelper {
         font-size: 25px;
         margin-bottom: 25px;
     }
+
     /* GET STARTED SECTION */
-    .getStarted > .container > div.aboutBtn{
+    .getStarted>.container>div.aboutBtn {
         width: 40%;
     }
 
     /* FOOTER SECTION */
-    .footerParagraph{
+    .footerParagraph {
         margin: 0 125px;
     }
-}   
+}
 
 /********* MEDIA QUERY *********/
 /*********** DESKTOP ************/
- 
-@media screen and (min-width: 992px){
-    .container{
-        max-width: 950px;
-    }
-    /* HEADER */
-    .navBar{
+
+@media screen and (min-width: 992px) {
+    .container {
         max-width: 950px;
     }
 
-    .fa-bars{
+    /* HEADER */
+    .navBar {
+        max-width: 950px;
+    }
+
+    .fa-bars {
         display: none;
     }
 
-    .menu .hiddenMenu{
-        display: flex;
-    }
-    /* DEMO SECTION */
-    .bigCard{
+    .menu .hiddenMenu {
         display: flex;
     }
 
-    .halfTop{
+    /* DEMO SECTION */
+    .bigCard {
+        display: flex;
+    }
+
+    .halfTop {
         width: 40%;
         margin-right: 10%;
     }
 
-    .halfBottom{
+    .halfBottom {
         width: 50%;
     }
 
-    .halfBottom > img{
+    .halfBottom>img {
         max-width: 100%;
     }
 
     /* PLANNING SECTION */
 
-    .planning > .container{
+    .planning>.container {
         display: flex;
         justify-content: space-around;
     }
 
-    .bigPlanningCard{
+    .bigPlanningCard {
         width: 40%;
     }
 
-    .planningCard{
+    .planningCard {
         width: 40%;
         margin-top: 193px;
         margin-bottom: 100px;
-        }
-    
-    .planningCard img{
+    }
+
+    .planningCard img {
         width: 60%;
         padding-top: 1em;
     }
 
-    .benefitCard{
+    .benefitCard {
         width: calc(100% / 3 - 1.5em);
     }
 
-    .benefitCard .benefitDscrpt{
-    line-height: 28px;
-    font-size: 14px;
-    padding-bottom: 0;
+    .benefitCard .benefitDscrpt {
+        line-height: 28px;
+        font-size: 14px;
+        padding-bottom: 0;
     }
 
     /* ABOUT US SECTION */
-    span.absolute{
+    span.absolute {
         bottom: 595px;
         left: 154px;
     }
-    }
-
-
-
+}
