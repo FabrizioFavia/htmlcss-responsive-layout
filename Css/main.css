@@ -24,7 +24,6 @@ img {width: 100%;}
 .marginT80{margin-top: 80px;}
 .marginT50{margin-top: 50px;}
 
-
 /****************** FLEX *******************/
 .flex            {display: flex;}
 .flexColumn      {display: flex; flex-direction: column;}
@@ -73,7 +72,6 @@ header .navBar {
     padding: 0.5em 1em;
     text-align: center;
     width: 100%;
-    background-color: white;
     color: black;
     cursor: pointer;
 }
@@ -82,11 +80,6 @@ header .navBar {
     margin-left: 20px;
     cursor: pointer;
 }
-
-.hiddenMenu a {
-    color: white;
-}
-
 /****************** MAIN *******************/
 /*************** DEMO SECTION **************/
 .container {
@@ -109,7 +102,6 @@ header .navBar {
 
 .bigCard div.benefitButton {
     background-color: #0084fd;
-    color: white;
     padding: 0.7em 1em;
     width: 230px;
     margin-bottom: 25px;
@@ -142,32 +134,23 @@ header .navBar {
 }
 
 /*************** PLANNING SECTION **************/
-.planning {
-    padding-bottom: 1px;
-}
+.planning {padding-bottom: 1px;}
 
 .bigPlanningCard {
-
     margin-bottom: 50px;
     padding-top: 50px;
 }
 
-.bigPlanningCard>img {
-    margin-bottom: 100px;
-}
+.bigPlanningCard>img {margin-bottom: 100px;}
 
 .bigPlanningCard>h2 {
     margin-bottom: 80px;
     font-size: 40px;
 }
 
-.planning p {
-    line-height: 32px;
-}
+.planning p {line-height: 32px;}
 
-.planningCard {
-    margin-bottom: 80px;
-}
+.planningCard {margin-bottom: 80px;}
 
 .planningCard img,
 h2,
@@ -200,9 +183,7 @@ p,
     font-size: 32px;
 }
 
-.presentation p {
-    line-height: 32px;
-}
+.presentation p {line-height: 32px;}
 
 .testimonialCard {
     margin-top: 40px;
@@ -210,7 +191,6 @@ p,
 }
 
 .testimonialCard p {
-    color: white;
     line-height: 32px;
     font-size: 20px;
     margin-bottom: 30px;
@@ -234,13 +214,9 @@ p,
 #fourthTestimonial {background-image: url(../img/about.jpg);}
 
 /*************** BENEFITS SECTION **************/
-.benefits>.container {
-    padding-bottom: 40px;
-}
+.benefits > .container {padding-bottom: 40px;}
 
-.benefitCard {
-    padding: 30px 40px;
-}
+.benefitCard {padding: 30px 40px;}
 
 .number {
     font-size: 60px;
@@ -253,7 +229,6 @@ p,
 .benefitTitle {
     font-size: 38px;
     font-weight: 600;
-    color: white;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -279,15 +254,10 @@ p,
     border-radius: 25px;
 }
 
-.benefitButton a {
-    color: white;
-    font-size: 18px;
-}
+.benefitButton a {font-size: 18px;}
 
 /*************** ABOUT US SECTION **************/
-.aboutDscrpt {
-    padding-top: 110px;
-}
+.aboutDscrpt {padding-top: 110px;}
 
 .aboutDscrpt h2 {
     color: #9792e4;
@@ -301,9 +271,7 @@ p,
     line-height: 40px;
 }
 
-.aboutUs .testimonialCard>div.foto {
-    margin-left: 0;
-}
+.aboutUs .testimonialCard>div.foto {margin-left: 0;}
 
 span.absolute {
     font-size: 216px;
@@ -330,14 +298,9 @@ span.absolute {
     margin-bottom: 80px;
 }
 
-.aboutBtn>a {
-    color: white;
-    font-size: 16px;
-}
+.aboutBtn>a {font-size: 16px;}
 
-.fa-linkedin {
-    margin-right: 0.5em;
-}
+.fa-linkedin {margin-right: 0.5em;}
 
 /*************** GET STARTED SECTION **************/
 .getStarted div.aboutBtn>a {
@@ -347,7 +310,6 @@ span.absolute {
 .getStarted>.container>span.white {
     font-size: 18px;
     font-weight: 100;
-
 }
 
 .getStarted>.container>h2 {
@@ -384,12 +346,10 @@ span.absolute {
     font-weight: 600;
 }
 
-.getStarted>.container>div.aboutBtn>a {
-    font-size: 20px;
-}
+.getStarted>.container>div.aboutBtn>a {font-size: 20px;}
 
 .privacyPolicy {
-    color: white;
+
     margin-bottom: 50px;
     text-align: center;
     font-size: 19px;
@@ -401,9 +361,7 @@ span.absolute {
     color: white;
 }
 
-footer.bgBlack {
-    padding-bottom: 50px;
-}
+footer.bgBlack {padding-bottom: 50px;}
 
 .bgBlack>.container>.footerParagraph {
     font-size: 16px;
@@ -419,7 +377,6 @@ footer.bgBlack {
 
 /********* MEDIA QUERY *********/
 /*********** TABLET ************/
-
 
 @media screen and (min-width: 768px) {
 
@@ -521,7 +478,7 @@ footer.bgBlack {
 
     /* FOOTER SECTION */
     .footerParagraph {
-        margin: 0 125px;
+        margin: 30px 125px;
     }
 }
 
@@ -572,18 +529,32 @@ footer.bgBlack {
     }
 
     .bigPlanningCard {
-        width: 40%;
+        width: 35%;
+    }
+
+    .fa-arrow-down-long {
+        margin-bottom: 20px;
     }
 
     .planningCard {
-        width: 40%;
+        width: 35%;
         margin-top: 193px;
-        margin-bottom: 100px;
+        margin-bottom: 155px;
+        align-self: baseline;
+    }
+
+    .planningCard h2 {
+        margin-bottom: 17px;
     }
 
     .planningCard img {
         width: 60%;
         padding-top: 1em;
+    }
+
+    .planning p {
+        line-height: 26px;
+        font-size: 14px;
     }
 
     .benefitCard {
